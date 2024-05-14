@@ -1,0 +1,306 @@
+
+################################################################################
+Prac
+1   $List_7-D-B-A-C-D-B-D
+2   $List_9-D-C-B-C-B-D-B-A-D
+3   $List_5-C-B-C-D-A
+4   $List_7-C-D-A-B-C-B-D
+
+Input-String:
+$List_7-D-B-A-C-D-B-D$List_9-D-C-B-C-B-D-B-A-D$List_5-C-B-C-D-A$List_7-C-D-A-B-C-B-D
+################################################################################
+BL
+1   $List_11-B-C-D-A-C-B-D-C-D-B-C
+2   $List_5-B-C-D-A-C
+3   $List_7-C-B-D-C-A-C-A
+4   $List_5-A-D-C-B-C
+5   $List_7-C-D-B-C-A-D-C
+6   $List_9-A-C-D-C-B-D-C-D-A
+7   $List_13-D-C-B-D-A-D-A-D-A-C-D-C-D
+8   $List_11-B-D-B-A-B-C-B-C-B-A-D
+9   $List_11-D-B-A-D-A-C-A-C-A-C-A
+10  $List_9-B-C-D-B-C-A-C-B-A
+11  $List_13-B-C-A-B-A-C-A-D-C-B-D-C-B
+12  $List_9-B-D-B-D-A-D-A-B-C
+13  $List_13-B-D-C-D-A-B-D-B-C-A-B-D-C
+14  $List_5-D-C-A-C-B
+15  $List_7-D-C-D-A-B-A-B
+
+Input-String:
+$List_11-B-C-D-A-C-B-D-C-D-B-C$List_5-B-C-D-A-C$List_7-C-B-D-C-A-C-A$List_5-A-D-C-B-C$List_7-C-D-B-C-A-D-C$List_9-A-C-D-C-B-D-C-D-A$List_13-D-C-B-D-A-D-A-D-A-C-D-C-D$List_11-B-D-B-A-B-C-B-C-B-A-D$List_11-D-B-A-D-A-C-A-C-A-C-A$List_9-B-C-D-B-C-A-C-B-A$List_13-B-C-A-B-A-C-A-D-C-B-D-C-B$List_9-B-D-B-D-A-D-A-B-C$List_13-B-D-C-D-A-B-D-B-C-A-B-D-C$List_5-D-C-A-C-B$List_7-D-C-D-A-B-A-B
+ ###############################################################################
+Pre
+1   $List_11-C-D-C-A-C-A-D-B-A-C-D
+2   $List_9-D-C-D-B-C-A-C-B-A
+3   $List_11-B-D-C-D-A-C-B-D-A-B-C
+4   $List_15-D-A-B-C-B-D-C-B-C-D-B-A-D-A-C
+5   $List_7-D-A-C-A-B-A-B
+6   $List_13-B-C-B-A-C-B-C-D-B-A-D-C-D
+7   $List_7-C-B-D-B-D-A-D
+8   $List_5-A-B-C-B-D
+9   $List_5-B-C-D-A-B
+10  $List_15-B-A-B-D-C-D-B-D-C-D-B-D-B-A-D
+11  $List_7-B-C-D-C-B-C-A
+12  $List_13-A-D-A-C-D-B-A-C-A-D-A-D-B
+13  $List_11-D-A-D-C-A-D-B-C-B-C-D
+14  $List_13-B-A-B-A-B-C-A-D-B-A-D-C-B
+15  $List_15-B-C-B-D-A-B-D-C-B-D-A-D-B-C-D
+16  $List_9-C-B-D-B-D-C-D-A-D
+17  $List_5-D-B-A-C-A
+18  $List_9-D-B-A-D-B-C-B-D-C
+
+Input-String:
+$List_11-C-D-C-A-C-A-D-B-A-C-D$List_9-D-C-D-B-C-A-C-B-A$List_11-B-D-C-D-A-C-B-D-A-B-C$List_15-D-A-B-C-B-D-C-B-C-D-B-A-D-A-C$List_7-D-A-C-A-B-A-B$List_13-B-C-B-A-C-B-C-D-B-A-D-C-D$List_7-C-B-D-B-D-A-D$List_5-A-B-C-B-D$List_5-B-C-D-A-B$List_15-B-A-B-D-C-D-B-D-C-D-B-D-B-A-D$List_7-B-C-D-C-B-C-A$List_13-A-D-A-C-D-B-A-C-A-D-A-D-B$List_11-D-A-D-C-A-D-B-C-B-C-D$List_13-B-A-B-A-B-C-A-D-B-A-D-C-B$List_15-B-C-B-D-A-B-D-C-B-D-A-D-B-C-D$List_9-C-B-D-B-D-C-D-A-D$List_5-D-B-A-C-A$List_9-D-B-A-D-B-C-B-D-C
+################################################################################
+T1
+1   $List_9-C-B-D-A-B-A-D-C-D
+2   $List_11-A-C-B-D-C-A-D-B-C-D-A
+3   $List_5-A-D-B-C-B
+4   $List_13-A-B-A-B-D-C-D-B-A-C-D-C-D
+5   $List_7-C-B-C-D-B-A-B
+6   $List_13-D-A-B-C-B-C-B-C-A-C-D-B-D
+7   $List_13-B-C-B-D-C-D-C-D-C-B-D-A-C
+8   $List_5-B-A-C-D-A
+9   $List_7-C-A-C-A-D-B-C
+10  $List_9-D-C-A-C-B-C-A-D-B
+11  $List_5-C-B-C-D-A
+12  $List_15-D-B-A-C-D-A-D-B-C-D-B-D-C-D-B
+13  $List_11-D-A-C-B-D-A-B-A-B-D-A
+14  $List_7-D-A-B-D-A-C-A
+15  $List_5-C-B-D-A-B
+16  $List_9-D-C-A-B-A-C-A-D-B
+17  $List_7-D-B-A-D-C-A-D
+18  $List_9-B-A-D-C-A-C-D-C-B
+        
+Input-String:
+$List_9-C-B-D-A-B-A-D-C-D$List_11-A-C-B-D-C-A-D-B-C-D-A$List_5-A-D-B-C-B$List_13-A-B-A-B-D-C-D-B-A-C-D-C-D$List_7-C-B-C-D-B-A-B$List_13-D-A-B-C-B-C-B-C-A-C-D-B-D$List_13-B-C-B-D-C-D-C-D-C-B-D-A-C$List_5-B-A-C-D-A$List_7-C-A-C-A-D-B-C$List_9-D-C-A-C-B-C-A-D-B$List_5-C-B-C-D-A$List_15-D-B-A-C-D-A-D-B-C-D-B-D-C-D-B$List_11-D-A-C-B-D-A-B-A-B-D-A$List_7-D-A-B-D-A-C-A$List_5-C-B-D-A-B$List_9-D-C-A-B-A-C-A-D-B$List_7-D-B-A-D-C-A-D$List_9-B-A-D-C-A-C-D-C-B
+################################################################################
+T2
+1   $List_9-B-A-C-A-D-A-B-D-B
+2   $List_5-B-A-C-D-A
+3   $List_9-A-B-C-D-A-D-A-C-B
+4   $List_9-A-B-A-B-D-C-B-D-C
+5   $List_11-A-B-D-C-A-B-D-A-C-D-B
+6   $List_7-C-D-A-B-A-D-C
+7   $List_7-D-C-A-D-A-B-C
+8   $List_13-A-B-A-B-C-D-C-B-A-B-A-B-C
+9   $List_15-D-B-D-A-D-B-C-D-C-A-B-A-D-A-C
+10  $List_5-C-A-C-B-D
+11  $List_5-D-C-B-D-A
+12  $List_13-A-B-A-D-C-A-B-A-D-C-D-A-D
+13  $List_15-A-B-C-A-B-C-B-D-C-B-D-B-C-A-B
+14  $List_11-C-B-C-D-C-B-D-C-D-C-A
+15  $List_11-D-B-C-D-C-D-C-D-B-A-C
+16  $List_7-D-B-C-A-D-C-D
+17  $List_13-B-A-C-A-D-C-B-A-C-A-B-C-B
+18  $List_15-A-D-C-B-D-C-B-D-A-D-C-A-D-B-D
+         
+Input-String:
+$List_9-B-A-C-A-D-A-B-D-B$List_5-B-A-C-D-A$List_9-A-B-C-D-A-D-A-C-B$List_9-A-B-A-B-D-C-B-D-C$List_11-A-B-D-C-A-B-D-A-C-D-B$List_7-C-D-A-B-A-D-C$List_7-D-C-A-D-A-B-C$List_13-A-B-A-B-C-D-C-B-A-B-A-B-C$List_15-D-B-D-A-D-B-C-D-C-A-B-A-D-A-C$List_5-C-A-C-B-D$List_5-D-C-B-D-A$List_13-A-B-A-D-C-A-B-A-D-C-D-A-D$List_15-A-B-C-A-B-C-B-D-C-B-D-B-C-A-B$List_11-C-B-C-D-C-B-D-C-D-C-A$List_11-D-B-C-D-C-D-C-D-B-A-C$List_7-D-B-C-A-D-C-D$List_13-B-A-C-A-D-C-B-A-C-A-B-C-B$List_15-A-D-C-B-D-C-B-D-A-D-C-A-D-B-D
+################################################################################
+T3
+1   $List_9-C-D-A-B-A-B-C-D-C
+2   $List_7-D-C-A-B-A-B-D
+3   $List_9-B-C-B-C-A-D-B-C-B
+4   $List_11-C-A-B-A-D-A-B-D-B-A-C
+5   $List_13-C-A-D-A-C-D-A-C-B-A-B-D-C
+6   $List_5-B-D-A-B-C
+7   $List_15-D-B-D-A-C-B-C-A-D-B-D-C-D-C-A
+8   $List_11-A-B-A-D-B-A-B-D-B-C-D
+9   $List_9-D-A-B-A-C-A-C-B-D
+10  $List_13-C-D-C-A-B-A-C-A-D-A-B-A-C
+11  $List_5-C-D-A-B-C
+12  $List_15-B-D-C-B-D-C-A-C-A-B-A-D-A-B-A
+13  $List_7-C-D-C-B-C-A-B
+14  $List_15-D-C-A-C-B-A-B-A-D-C-D-C-D-A-C
+15  $List_5-D-B-A-C-B
+16  $List_11-B-A-C-D-C-D-B-C-D-C-B
+17  $List_13-D-B-C-A-B-D-B-A-D-C-A-C-B
+18  $List_7-D-A-D-B-C-D-C
+  
+Input-String:
+$List_9-C-D-A-B-A-B-C-D-C$List_7-D-C-A-B-A-B-D$List_9-B-C-B-C-A-D-B-C-B$List_11-C-A-B-A-D-A-B-D-B-A-C$List_13-C-A-D-A-C-D-A-C-B-A-B-D-C$List_5-B-D-A-B-C$List_15-D-B-D-A-C-B-C-A-D-B-D-C-D-C-A$List_11-A-B-A-D-B-A-B-D-B-C-D$List_9-D-A-B-A-C-A-C-B-D$List_13-C-D-C-A-B-A-C-A-D-A-B-A-C$List_5-C-D-A-B-C$List_15-B-D-C-B-D-C-A-C-A-B-A-D-A-B-A$List_7-C-D-C-B-C-A-B$List_15-D-C-A-C-B-A-B-A-D-C-D-C-D-A-C$List_5-D-B-A-C-B$List_11-B-A-C-D-C-D-B-C-D-C-B$List_13-D-B-C-A-B-D-B-A-D-C-A-C-B$List_7-D-A-D-B-C-D-C
+################################################################################
+T4
+1   $List_9-D-B-D-B-A-D-A-C-A
+2   $List_5-B-A-C-D-B
+3   $List_7-D-C-A-D-C-B-C
+4   $List_11-D-C-A-B-D-C-B-D-B-D-A
+5   $List_13-C-D-B-D-A-D-C-A-D-C-B-D-B
+6   $List_15-B-A-C-B-A-B-C-A-D-C-B-C-D-A-B
+7   $List_7-B-A-C-D-C-D-B
+8   $List_13-D-B-A-B-C-D-B-C-A-D-A-C-A
+9   $List_11-B-D-C-B-D-B-A-C-D-A-B
+10  $List_15-A-C-B-A-B-C-A-C-B-C-D-B-C-B-A
+11  $List_9-C-B-A-D-B-C-B-C-A
+12  $List_5-C-B-D-A-D
+13  $List_15-A-C-B-D-C-A-C-D-B-A-C-D-C-D-A
+14  $List_5-C-D-A-B-A
+15  $List_9-C-B-C-D-B-A-D-C-A
+16  $List_13-B-C-A-D-B-A-D-C-A-B-D-B-A
+17  $List_7-D-B-C-B-A-C-B
+18  $List_11-C-D-C-D-C-B-A-D-C-A-C
+   
+Input-String:    
+$List_9-D-B-D-B-A-D-A-C-A$List_5-B-A-C-D-B$List_7-D-C-A-D-C-B-C$List_11-D-C-A-B-D-C-B-D-B-D-A$List_13-C-D-B-D-A-D-C-A-D-C-B-D-B$List_15-B-A-C-B-A-B-C-A-D-C-B-C-D-A-B$List_7-B-A-C-D-C-D-B$List_13-D-B-A-B-C-D-B-C-A-D-A-C-A$List_11-B-D-C-B-D-B-A-C-D-A-B$List_15-A-C-B-A-B-C-A-C-B-C-D-B-C-B-A$List_9-C-B-A-D-B-C-B-C-A$List_5-C-B-D-A-D$List_15-A-C-B-D-C-A-C-D-B-A-C-D-C-D-A$List_5-C-D-A-B-A$List_9-C-B-C-D-B-A-D-C-A$List_13-B-C-A-D-B-A-D-C-A-B-D-B-A$List_7-D-B-C-B-A-C-B$List_11-C-D-C-D-C-B-A-D-C-A-C
+################################################################################
+T5
+1   $List_5-D-C-A-B-D
+2   $List_11-A-C-A-D-A-D-B-C-A-D-A
+3   $List_9-D-B-D-C-D-A-D-A-B
+4   $List_7-C-D-A-D-B-A-B
+5   $List_13-C-D-A-D-C-D-A-C-D-A-D-C-B
+6   $List_13-C-B-A-C-B-D-C-A-C-B-C-A-C
+7   $List_7-D-C-D-C-D-B-A
+8   $List_9-D-C-D-C-B-C-B-A-B
+9   $List_11-D-A-B-C-B-A-D-B-A-C-A
+10  $List_5-A-D-A-C-B
+11  $List_15-D-B-D-B-D-C-B-C-D-A-C-D-A-D-C
+12  $List_5-B-C-D-C-A
+13  $List_11-C-A-D-A-D-C-D-C-D-B-C
+14  $List_9-B-C-B-C-B-C-D-A-B
+15  $List_7-C-D-C-A-B-D-B
+16  $List_15-B-D-B-A-B-D-B-C-A-B-D-A-B-D-C
+17  $List_15-D-A-B-D-B-C-D-A-B-D-C-B-A-B-C
+18  $List_13-A-B-A-D-C-A-B-D-C-A-D-B-C
+  
+Input-String:
+$List_5-D-C-A-B-D$List_11-A-C-A-D-A-D-B-C-A-D-A$List_9-D-B-D-C-D-A-D-A-B$List_7-C-D-A-D-B-A-B$List_13-C-D-A-D-C-D-A-C-D-A-D-C-B$List_13-C-B-A-C-B-D-C-A-C-B-C-A-C$List_7-D-C-D-C-D-B-A$List_9-D-C-D-C-B-C-B-A-B$List_11-D-A-B-C-B-A-D-B-A-C-A$List_5-A-D-A-C-B$List_15-D-B-D-B-D-C-B-C-D-A-C-D-A-D-C$List_5-B-C-D-C-A$List_11-C-A-D-A-D-C-D-C-D-B-C$List_9-B-C-B-C-B-C-D-A-B$List_7-C-D-C-A-B-D-B$List_15-B-D-B-A-B-D-B-C-A-B-D-A-B-D-C$List_15-D-A-B-D-B-C-D-A-B-D-C-B-A-B-C$List_13-A-B-A-D-C-A-B-D-C-A-D-B-C
+################################################################################
+T6
+1   $List_7-B-C-D-A-D-B-C
+2   $List_11-C-B-D-C-A-C-D-A-B-C-B
+3   $List_5-A-C-B-C-D
+4   $List_13-A-B-A-D-B-A-C-B-D-C-B-C-D
+5   $List_9-A-B-A-C-B-D-C-A-B
+6   $List_9-B-A-C-D-C-A-B-C-D
+7   $List_7-A-B-D-B-C-D-A
+8   $List_15-D-C-B-C-A-C-D-B-C-B-D-C-B-A-C
+9   $List_15-A-D-C-B-D-B-D-B-A-D-A-B-A-B-A
+10  $List_5-C-A-D-C-B
+11  $List_13-D-A-C-B-C-A-B-A-B-C-B-A-C
+12  $List_11-B-D-B-D-A-C-B-A-C-B-C
+13  $List_7-D-A-B-D-B-C-A
+14  $List_13-C-B-C-B-C-A-D-A-C-B-D-A-C
+15  $List_15-D-C-A-C-B-C-B-A-D-B-A-B-C-B-C
+16  $List_11-A-B-D-A-B-A-D-B-A-C-A
+17  $List_9-C-A-B-A-B-C-A-D-C
+18  $List_5-B-C-A-D-B
+    
+Input-String:
+$List_7-B-C-D-A-D-B-C$List_11-C-B-D-C-A-C-D-A-B-C-B$List_5-A-C-B-C-D$List_13-A-B-A-D-B-A-C-B-D-C-B-C-D$List_9-A-B-A-C-B-D-C-A-B$List_9-B-A-C-D-C-A-B-C-D$List_7-A-B-D-B-C-D-A$List_15-D-C-B-C-A-C-D-B-C-B-D-C-B-A-C$List_15-A-D-C-B-D-B-D-B-A-D-A-B-A-B-A$List_5-C-A-D-C-B$List_13-D-A-C-B-C-A-B-A-B-C-B-A-C$List_11-B-D-B-D-A-C-B-A-C-B-C$List_7-D-A-B-D-B-C-A$List_13-C-B-C-B-C-A-D-A-C-B-D-A-C$List_15-D-C-A-C-B-C-B-A-D-B-A-B-C-B-C$List_11-A-B-D-A-B-A-D-B-A-C-A$List_9-C-A-B-A-B-C-A-D-C$List_5-B-C-A-D-B
+################################################################################
+T7
+1   $List_9-B-C-B-D-C-A-B-D-A
+2   $List_5-B-A-D-C-A
+3   $List_9-D-B-C-D-B-D-B-C-A
+4   $List_7-D-B-C-A-B-D-A
+5   $List_7-D-C-A-D-B-A-D
+6   $List_11-A-D-B-D-A-B-C-B-D-B-A
+7   $List_15-A-B-D-C-A-B-D-B-D-C-B-C-B-A-B
+8   $List_5-D-B-C-A-B
+9   $List_9-C-A-B-D-C-B-C-A-D
+10  $List_13-B-A-D-A-B-C-B-D-B-D-A-D-A
+11  $List_11-D-C-D-A-B-D-A-D-A-C-A
+12  $List_13-A-B-D-A-D-B-C-D-C-A-D-A-C
+13  $List_7-C-D-A-C-D-B-A
+14  $List_13-B-D-B-D-B-C-D-A-D-C-A-B-A
+15  $List_15-B-D-C-D-C-B-D-C-D-B-D-B-A-D-B
+16  $List_11-A-C-A-B-C-D-C-A-D-A-C
+17  $List_15-C-D-C-B-A-D-A-D-A-B-C-B-D-A-D
+18  $List_5-B-C-B-A-D
+     
+Input-String:
+$List_9-B-C-B-D-C-A-B-D-A$List_5-B-A-D-C-A$List_9-D-B-C-D-B-D-B-C-A$List_7-D-B-C-A-B-D-A$List_7-D-C-A-D-B-A-D$List_11-A-D-B-D-A-B-C-B-D-B-A$List_15-A-B-D-C-A-B-D-B-D-C-B-C-B-A-B$List_5-D-B-C-A-B$List_9-C-A-B-D-C-B-C-A-D$List_13-B-A-D-A-B-C-B-D-B-D-A-D-A$List_11-D-C-D-A-B-D-A-D-A-C-A$List_13-A-B-D-A-D-B-C-D-C-A-D-A-C$List_7-C-D-A-C-D-B-A$List_13-B-D-B-D-B-C-D-A-D-C-A-B-A$List_15-B-D-C-D-C-B-D-C-D-B-D-B-A-D-B$List_11-A-C-A-B-C-D-C-A-D-A-C$List_15-C-D-C-B-A-D-A-D-A-B-C-B-D-A-D$List_5-B-C-B-A-D
+################################################################################
+T8
+1   $List_9-D-B-C-B-D-B-A-B-A
+2   $List_7-B-D-B-C-D-A-B
+3   $List_9-B-A-B-C-A-D-C-B-D
+4   $List_11-A-B-A-B-A-B-A-D-B-C-A
+5   $List_13-A-C-D-C-B-C-A-D-B-C-D-C-B
+6   $List_15-B-A-C-A-D-A-D-B-A-B-D-B-D-B-D
+7   $List_15-A-D-A-C-A-C-B-C-D-C-B-C-D-B-A
+8   $List_13-B-A-B-C-B-D-B-A-B-D-B-D-C
+9   $List_5-C-D-A-D-B
+10  $List_11-B-C-D-C-B-A-D-A-C-D-B
+11  $List_5-D-C-B-A-D
+12  $List_7-A-B-D-A-D-C-A
+13  $List_5-C-B-A-D-C
+14  $List_15-D-C-A-B-C-B-D-B-D-C-D-C-D-B-A
+15  $List_11-A-B-D-A-D-A-D-C-A-B-D
+16  $List_13-C-D-A-D-C-A-C-D-C-B-A-D-B
+17  $List_9-A-C-B-C-A-D-A-B-D
+18  $List_7-A-C-B-C-A-B-D
+    
+Input-String:
+$List_9-D-B-C-B-D-B-A-B-A$List_7-B-D-B-C-D-A-B$List_9-B-A-B-C-A-D-C-B-D$List_11-A-B-A-B-A-B-A-D-B-C-A$List_13-A-C-D-C-B-C-A-D-B-C-D-C-B$List_15-B-A-C-A-D-A-D-B-A-B-D-B-D-B-D$List_15-A-D-A-C-A-C-B-C-D-C-B-C-D-B-A$List_13-B-A-B-C-B-D-B-A-B-D-B-D-C$List_5-C-D-A-D-B$List_11-B-C-D-C-B-A-D-A-C-D-B$List_5-D-C-B-A-D$List_7-A-B-D-A-D-C-A$List_5-C-B-A-D-C$List_15-D-C-A-B-C-B-D-B-D-C-D-C-D-B-A$List_11-A-B-D-A-D-A-D-C-A-B-D$List_13-C-D-A-D-C-A-C-D-C-B-A-D-B$List_9-A-C-B-C-A-D-A-B-D$List_7-A-C-B-C-A-B-D
+################################################################################
+T9
+1   $List_9-A-D-C-B-D-A-C-D-A
+2   $List_9-A-D-B-C-B-D-A-C-A
+3   $List_11-C-D-A-D-A-D-B-D-A-C-D
+4   $List_13-B-A-B-C-A-D-A-C-B-C-D-A-B
+5   $List_13-B-A-D-C-A-C-D-B-C-B-C-D-C
+6   $List_7-A-C-A-B-C-A-D
+7   $List_5-A-D-C-A-B
+8   $List_5-B-D-A-B-C
+9   $List_7-A-D-C-D-B-A-B
+10  $List_13-B-C-D-A-D-B-A-D-A-B-D-B-D
+11  $List_15-C-B-A-D-A-C-B-C-D-C-B-A-C-D-B
+12  $List_15-B-A-D-A-D-C-D-A-C-B-D-B-D-A-C
+13  $List_7-C-B-D-C-B-D-A
+14  $List_11-B-C-A-C-B-D-A-D-A-D-B
+15  $List_5-D-B-A-B-C
+16  $List_11-A-C-B-A-B-D-C-A-B-A-D
+17  $List_15-C-B-C-B-A-B-C-A-B-C-D-A-B-C-D
+18  $List_9-C-D-C-D-A-C-A-D-B
+         
+Input-String: 
+$List_9-A-D-C-B-D-A-C-D-A$List_9-A-D-B-C-B-D-A-C-A$List_11-C-D-A-D-A-D-B-D-A-C-D$List_13-B-A-B-C-A-D-A-C-B-C-D-A-B$List_13-B-A-D-C-A-C-D-B-C-B-C-D-C$List_7-A-C-A-B-C-A-D$List_5-A-D-C-A-B$List_5-B-D-A-B-C$List_7-A-D-C-D-B-A-B$List_13-B-C-D-A-D-B-A-D-A-B-D-B-D$List_15-C-B-A-D-A-C-B-C-D-C-B-A-C-D-B$List_15-B-A-D-A-D-C-D-A-C-B-D-B-D-A-C$List_7-C-B-D-C-B-D-A$List_11-B-C-A-C-B-D-A-D-A-D-B$List_5-D-B-A-B-C$List_11-A-C-B-A-B-D-C-A-B-A-D$List_15-C-B-C-B-A-B-C-A-B-C-D-A-B-C-D$List_9-C-D-C-D-A-C-A-D-B
+################################################################################
+Post1
+1   $List_7-C-A-D-A-B-D-B
+2   $List_11-D-B-D-A-D-C-D-C-A-C-B
+3   $List_11-C-B-C-A-D-B-C-A-C-D-A
+4   $List_9-C-D-A-D-C-D-C-B-D
+5   $List_5-A-C-A-D-B
+6   $List_5-B-C-A-D-C
+7   $List_15-D-C-A-C-B-A-D-B-D-B-C-D-C-D-B
+8   $List_11-C-D-B-C-A-C-D-A-C-B-D
+9   $List_15-C-B-D-A-B-A-D-B-C-D-B-A-C-B-D
+10  $List_5-B-A-D-C-A
+11  $List_9-C-D-B-A-B-C-B-D-B
+12  $List_9-B-A-D-B-A-B-D-C-D
+13  $List_13-D-A-C-A-C-D-B-C-D-C-B-A-D
+14  $List_7-A-D-C-D-C-B-D
+15  $List_15-D-B-D-C-A-B-A-C-B-C-A-D-C-B-A
+16  $List_13-A-B-C-B-A-B-D-C-B-D-C-A-D
+17  $List_13-D-C-A-B-A-C-A-D-A-D-C-B-D
+18  $List_7-D-C-A-B-C-D-B
+           
+Input-String: 
+$List_7-C-A-D-A-B-D-B$List_11-D-B-D-A-D-C-D-C-A-C-B$List_11-C-B-C-A-D-B-C-A-C-D-A$List_9-C-D-A-D-C-D-C-B-D$List_5-A-C-A-D-B$List_5-B-C-A-D-C$List_15-D-C-A-C-B-A-D-B-D-B-C-D-C-D-B$List_11-C-D-B-C-A-C-D-A-C-B-D$List_15-C-B-D-A-B-A-D-B-C-D-B-A-C-B-D$List_5-B-A-D-C-A$List_9-C-D-B-A-B-C-B-D-B$List_9-B-A-D-B-A-B-D-C-D$List_13-D-A-C-A-C-D-B-C-D-C-B-A-D$List_7-A-D-C-D-C-B-D$List_15-D-B-D-C-A-B-A-C-B-C-A-D-C-B-A$List_13-A-B-C-B-A-B-D-C-B-D-C-A-D$List_13-D-C-A-B-A-C-A-D-A-D-C-B-D$List_7-D-C-A-B-C-D-B
+################################################################################
+Post2
+1   $List_9-A-C-B-D-C-D-A-B-D
+2   $List_11-A-D-A-C-B-A-C-B-C-A-D
+3   $List_5-C-B-D-A-D
+4   $List_15-A-D-C-B-D-B-C-A-D-C-D-B-D-C-A
+5   $List_13-C-B-C-A-C-A-C-B-A-D-C-B-A
+6   $List_15-B-C-D-C-D-B-A-B-A-B-C-B-A-D-A
+7   $List_5-D-B-C-B-A
+8   $List_7-D-B-D-B-C-A-B
+9   $List_13-C-D-A-C-A-C-D-B-C-B-D-C-A
+10  $List_9-D-B-D-C-A-D-A-C-A
+11  $List_5-D-A-B-A-C
+12  $List_11-C-A-B-D-B-C-B-D-A-B-C
+13  $List_11-C-B-D-A-D-C-A-B-A-D-A
+14  $List_15-A-B-C-D-C-D-C-A-B-D-B-D-A-B-C
+15  $List_7-B-D-C-A-B-A-B
+16  $List_7-B-C-B-A-D-B-C
+17  $List_9-D-B-A-C-B-D-A-C-A
+18  $List_13-B-D-B-D-A-C-D-A-C-B-D-C-A
+         
+Input-String: 
+$List_9-A-C-B-D-C-D-A-B-D$List_11-A-D-A-C-B-A-C-B-C-A-D$List_5-C-B-D-A-D$List_15-A-D-C-B-D-B-C-A-D-C-D-B-D-C-A$List_13-C-B-C-A-C-A-C-B-A-D-C-B-A$List_15-B-C-D-C-D-B-A-B-A-B-C-B-A-D-A$List_5-D-B-C-B-A$List_7-D-B-D-B-C-A-B$List_13-C-D-A-C-A-C-D-B-C-B-D-C-A$List_9-D-B-D-C-A-D-A-C-A$List_5-D-A-B-A-C$List_11-C-A-B-D-B-C-B-D-A-B-C$List_11-C-B-D-A-D-C-A-B-A-D-A$List_15-A-B-C-D-C-D-C-A-B-D-B-D-A-B-C$List_7-B-D-C-A-B-A-B$List_7-B-C-B-A-D-B-C$List_9-D-B-A-C-B-D-A-C-A$List_13-B-D-B-D-A-C-D-A-C-B-D-C-A
